@@ -6,10 +6,13 @@ function hiThere() {
 function submit1(){
 event.preventDefault();
 var a = +document.getElementById("number1").value;
-// console.log(typeof(a));
+console.log(typeof(a));
 var b = parseInt(document.getElementById("number2").value);
-// console.log(typeof(b));
+console.log(typeof(b));
+
+// c = a + b;
 var c = (isNaN(a) ? 0 : parseInt(a)) +  (isNaN(b) ? 0 : parseInt(b));
 console.log("Result is :" +c);
 document.getElementById("screen1").innerHTML=c;
+
 }
