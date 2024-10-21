@@ -1,0 +1,59 @@
+* {
+    margin:0px;
+    
+}
+
+body {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/87/851/622/laptop-backgrounds-nature-images-1920x1200-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color:lightgrey;
+}
+
+.one {
+    padding-left: 70px;
+    text-align:left;
+    height:0px;
+    color:rgb(255, 119, 0);
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(254, 219, 171);
+    height: 300px;
+    border: 1px solid ;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.btn {
+    position: absolute;
+    right: 3vw;
+}
+
+h3 {
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color:lightgrey;
+    color:blue;
+}

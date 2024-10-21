@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arithmetic operations</title>
+    <link rel="stylesheet" href="../../CSS/five/operations.css">
+</head>
+<body>
+    <header>
+        <div class="one"><h1>Pavan Kumar</h1></div>
+        <img src="https://i.pinimg.com/736x/eb/ba/f6/ebbaf66a68f8bec84807f6bd0fb877d5.jpg" align="left" style="height:40px; width:60px;"></img>
+        <img src="https://t4.ftcdn.net/jpg/09/21/22/11/360_F_921221155_djamoaNdd2gJHyNHH0hPF5sXgUcknqh0.jpg" style="height:40px; width:40px;" align="right"></img>
+        <img src="https://media.istockphoto.com/id/1140611970/vector/information-symbol-vector-icon-illustration-information-sign-vector-icon.jpg?s=612x612&w=0&k=20&c=Ib-EtFrBk9aW8C5ZDFdiDwg6-pMga5BEwnYED4CW5KY=" style="height:40px; width:40px;" align="right"></img>
+        <img src="https://png.pngtree.com/png-clipart/20230915/original/pngtree-thin-line-house-icon-isolated-on-white-background-vector-png-image_12222347.png" style="height:40px; width:40px;" align="right"></img>
+    </header>
+    <main>
+        <script src="../../JAVASCRIPT/five/operations.js"></script>
+        <form name="Arithmetic operations">
+            <h3>Arithmetic Operations</h3><br>
+        <label for="fn">Enter first number:</label>
+        <input type="number" name="fn" id="fn" placeholder="enter a number here"><br><br>
+
+        <label for="sn">Enter second number:</label>
+        <input type="number" name="sn" id="sn" placeholder="enter a number here"><br><br>
+        
+        <label for="result">Result:</label>
+        <span id="result"></span><br><br>
+
+        <button type="submit" onclick="add()">Add</button><br><br>
+        <button type="submit" onclick="sub()">Substract</button><br><br>
+        <button type="submit" onclick="mul()">Multiply</button><br><br>
+        <button type="submit" onclick="div()">Divide</button>
+        <button type="reset" onclick="res()" class="btn">Reset</button>
+
+        </form>    
+    </main>
+    <footer>
+        <div>&copy; 2024 my webpage</div>
+        <div>Terms of Use &nbsp&nbsp Privacy Policy &nbsp&nbsp Contact Us</div>
+    </footer>
+</body>
+</html>
