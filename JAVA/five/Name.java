@@ -29,7 +29,19 @@ public class Name {
         Examples:
 
         public void calculateSalary() {}
-        public void printMessage() {} """;
+        public void printMessage() {} 
+        
+        Variable Name Naming Conventions:
+
+        1. Variable names should be meaningful and descriptive.
+        2. Use lowercase letters, digits, and underscores (_).
+        3. Avoid using reserved words (e.g., class, interface).
+        4. Variable names should start with a letter, not a digit.
+        
+        Examples:
+
+        String name = "Pavan";
+        int myCount = 0;""";
         System.out.println(text);
     }
 }
