@@ -23,11 +23,10 @@ public class ArrayListDemo {
 	}
 }
 /*
-questions :
-1. What is the maximum size of an Arraylist?
-2. What if we use size more than maximum size of an ArrayList?
+question-1 :
+What is the maximum size of an Arraylist?
 
-answer for both 1 and 2 questions:
+answer :
 
 In Java, the maximum size of an ArrayList is limited by the maximum value that can be stored in an int variable, 
 which is Integer.MAX_VALUE. This value is equal to 2^31 - 1, which is approximately 2.147 billion.
@@ -60,10 +59,32 @@ public class Main {
 This code will attempt to add Integer.MAX_VALUE elements to the list, but it will likely throw an OutOfMemoryError
 before reaching the maximum size.
 
+
+question-2 :
+What if we use size more than maximum size of an ArrayList (consider maximum size is 10)?
+
+answer :
+If you try to add more elements to an ArrayList than its maximum size (in this case, 10), 
+you won't get an immediate error. Instead, the ArrayList will automatically resize itself to accommodate the additional elements.
+
+Here's what happens behind the scenes:
+
+1. When you add the 11th element, the ArrayList detects that it has reached its maximum size.
+2. The ArrayList creates a new, larger array with a capacity of 15 (or 20, depending on the JVM implementation).
+3. The ArrayList copies all the existing elements from the original array to the new larger array.
+4. The ArrayList adds the new element (the 11th element) to the new array.
+
+This process is called "dynamic resizing" or "capacity expansion." 
+It allows the ArrayList to grow or shrink dynamically as elements are added or removed.
+
+However, it's worth noting that frequent resizing can lead to performance issues, especially for very large datasets. 
+This is because resizing involves creating a new array and copying all the elements, which can be an expensive operation.
+
+
 question-3 :
 Distinguish between ArrayList, LinkedList and Vector?
 
-answer:
+answer :
 _______________________________________________________________________________________________________________
 Implementation | Insertion/Deletion 	 | Search | Memory Usage | Thread Safety | Performance                |
 ---------------------------------------------------------------------------------------------------------------
