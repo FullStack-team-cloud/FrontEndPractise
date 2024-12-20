@@ -85,11 +85,11 @@ question-3 :
 Distinguish between ArrayList, LinkedList and Vector?
 
 answer :
-_______________________________________________________________________________________________________________
-Implementation | Insertion/Deletion 	 | Search | Memory Usage | Thread Safety | Performance                |
----------------------------------------------------------------------------------------------------------------
-ArrayList      | Slow for large datasets | Fast	  | Low		     | No 		     | Good for random access     |
-LinkedList     | Fast for large datasets | Slow   | High         | No            | Good for sequential access |
-Vector         | Slow for large datasets | Fast   | Low          | Yes           | Good for random access     |
-_______________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________
+| Implementation | Insertion/Deletion 	   | Search | Memory Usage | Thread Safety | Performance                |
+-----------------------------------------------------------------------------------------------------------------
+| ArrayList      | Slow for large datasets | Fast	| Low		   | No 		   | Good for random access     |
+| LinkedList     | Fast for large datasets | Slow   | High         | No            | Good for sequential access |
+| Vector         | Slow for large datasets | Fast   | Low          | Yes           | Good for random access     |
+_________________________________________________________________________________________________________________
 */

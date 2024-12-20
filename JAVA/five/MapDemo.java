@@ -20,3 +20,20 @@ public class MapDemo {
 	}
 
 }
+
+/*
+question:
+Distinguish between HashMap, HashTable, LinkedHashMap and SortedMap?
+
+answer:
+__________________________________________________________________________________________________________________________________________
+| Characteristics  | HASHMAP  | HASHTABLE                              | LINKEDHASHMAP          | SORTEDMAP (TreeMap)                    |                
+------------------------------------------------------------------------------------------------------------------------------------------
+| Thread Safety    | No       | Yes	                                   | No		                | No 	                                 |
+| Order            | No order | No order                               | Insertion/Access order | Sorted order                           | 
+| Keys             | Unique   | Unique                                 | Unique                 | Unique                                 |
+| Duplicate Values | Allowed  | Allowed                                | Allowed                | Allowed                                |
+| Null Keys        | Allowed  | Not Allowed                            | Allowed                | Not Allowed                            |
+| Performance      | Fast     | Slightly slower due to Synchronization | Fast                   | Slower due to Sorting                  |
+__________________________________________________________________________________________________________________________________________
+*/
